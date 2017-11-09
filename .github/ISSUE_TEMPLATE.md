@@ -1,4 +1,4 @@
-** Be sure to read [here](https://github.com/DiscordDungeons/Bugs/blob/master/FAQ.md) first. **
+**Be sure to read [here](https://github.com/DiscordDungeons/Bugs/blob/master/FAQ.md) first.**
 
 **Please describe your issue below.**  
 
