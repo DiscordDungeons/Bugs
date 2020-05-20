@@ -23,5 +23,7 @@ If applicable, add screenshots to help explain your problem.
 **Version**
 What is the current version at the time of creating this issue?
 
+Use `#!info` to find the version.
+
 **Additional context**
 Add any other context about the problem here.
