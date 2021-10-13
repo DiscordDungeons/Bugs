@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to submit a feature request! 🙏
-  - type: textarea+
+  - type: textarea
     id: problem-related
     validations:
       required: false
