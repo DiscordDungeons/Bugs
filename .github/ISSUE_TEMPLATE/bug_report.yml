@@ -35,7 +35,7 @@ body:
     id: bot-version
     attributes:
       label: "🎲 DRPG version"
-      description: "What version of DRPG does the bug happen on?"
+      description: "What version of DRPG does the bug happen on? Use `#!info` to check."
       placeholder: ex. 4.16.0
     validations:
       required: true
