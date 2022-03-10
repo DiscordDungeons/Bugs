@@ -31,6 +31,12 @@ body:
       label: "👎 Actual Behavior"
       description: "What actually happened? Add screenshots, if applicable."
       placeholder: "It actually ..."
+  - type: textarea
+      id: error-message
+      attributes:
+        label: "💥 Error message"
+        description: "If an error message was sent, please provide it here."
+        placeholder: "Error at line 14!"
   - type: input
     id: bot-version
     attributes:
