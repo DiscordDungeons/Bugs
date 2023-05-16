@@ -5,6 +5,40 @@ body:
     attributes:
       value: |
         Thanks for taking the time to submit a feature request! 🙏
+  - type: checkboxes
+    id: feature-category
+    attributes:
+      label: "Does your feature reuqest fit any of these categories"
+      description: "Marking a category helps us to track your requests"
+      options:
+        - label: "Items" 
+        - label: "Dungeons"
+        - label: "Achievements"
+        - label: "Tasks"
+        - label: "Sides"
+        - label: "Quests"
+        - label: "Pets"
+        - label: "Party"
+        - label: "Npc"
+        - label: "Market"
+        - label: "Location"
+        - label: "Level"
+        - label: "Guilds"
+        - label: "Battles"
+        - label: "Admin"
+        - label: "Other"
+          required: true
+          
+          
+  - type: textarea
+    id: new-feature
+    validations:
+      required: false
+    attributes:
+      label: "Is your feature a new and non-existing feature the bot doesn't have?"
+      description: "Please describe it!"
+      placeholder: "Can we add..."
+          
   - type: textarea
     id: problem-related
     validations:
@@ -13,6 +47,7 @@ body:
       label: "Is your feature request related to a problem?"
       description: "Please describe it!"
       placeholder: " I'm always frustrated when ..."
+      
   - type: textarea
     id: considered-alternatives
     validations:
