@@ -27,8 +27,6 @@ body:
         - label: "Battles"
         - label: "Admin"
         - label: "Other"
-       optional:
-           required: true  
           
   - type: textarea
     id: new-feature
