@@ -8,9 +8,10 @@ body:
   - type: checkboxes
     id: feature-category
     attributes:
-      label: "Does your feature reuqest fit any of these categories"
+      label: "Does your feature request fit any of these categories"
       description: "Marking a category helps us to track your requests"
       options:
+      required: true
         - label: "Items" 
         - label: "Dungeons"
         - label: "Achievements"
@@ -27,7 +28,6 @@ body:
         - label: "Battles"
         - label: "Admin"
         - label: "Other"
-          required: true
           
           
   - type: textarea
