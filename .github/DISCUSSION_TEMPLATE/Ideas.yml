@@ -11,7 +11,6 @@ body:
       label: "Does your feature request fit any of these categories"
       description: "Marking a category helps us to track your requests"
       options:
-      required: true
         - label: "Items" 
         - label: "Dungeons"
         - label: "Achievements"
@@ -28,7 +27,8 @@ body:
         - label: "Battles"
         - label: "Admin"
         - label: "Other"
-          
+    validations:
+    required: true  
           
   - type: textarea
     id: new-feature
