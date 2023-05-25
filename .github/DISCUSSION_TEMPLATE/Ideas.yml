@@ -7,6 +7,8 @@ body:
         Thanks for taking the time to submit a feature request! 🙏
   - type: checkboxes
     id: feature-category
+    validations:
+      required: true
     attributes:
       label: "Does your feature request fit any of these categories"
       description: "Marking a category helps us to track your requests"
